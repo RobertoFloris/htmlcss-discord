@@ -189,3 +189,36 @@ justify-content: center;
 .download_main a{
   color: white;
 }
+
+footer .flex{
+  justify-content: space-between;
+}
+
+footer{
+  min-height: 690px;
+  background-color: black;
+  color: white;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+footer ul{
+  display: block;
+}
+
+footer li, footer h2{
+  margin-top: 20px;
+}
+
+footer a{
+  margin: 0;
+  padding: 0;
+}
+
+footer a:hover{
+  color:rgb(41, 41, 41);
+}
+
+hr{
+  margin-top: 100px;
+}
