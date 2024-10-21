@@ -1,0 +1,147 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+/* .debug{
+  background-color: rgba(255,0,0,.2);
+  border: 1px solid black;
+} */
+
+.container{
+  width: 98%;
+  max-width: 900px;
+  margin: 0 auto;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.row{
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+}
+
+.flex{
+  display: flex;
+}
+
+header{
+  background-color: #255EE9;
+  color: white;
+}
+
+.navbar{
+  position: fixed;
+  width: 100%;
+  height: 90px;
+  background-color: #255EE9;
+}
+
+.navbar .container{
+  height: 100%;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header_main{
+  min-height: 600px;
+  background-image: url(./img/jumbo.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 70vh;
+  align-items: center;
+  justify-content: center;
+}
+
+.button{
+  background-color: white;
+  padding: 10px 20px;
+  border-radius: 25px;
+}
+
+.button a{
+  color: black;
+}
+
+.header_main .button.browser a{
+  color: white;
+}
+
+.button:hover{
+  background-color: lightgray;
+}
+
+ul{
+  display: flex;
+  list-style: none;
+}
+
+a{
+  text-decoration: none;
+  color: white;
+  margin: 0 10px;
+  padding: 5px 10px;
+}
+
+a:hover{
+  color: black;
+}
+
+header p{
+  font-size: 1.3rem;
+  padding: 50px;
+  text-align: center;
+}
+
+header h1{
+  text-align: center;
+  font-size: 3rem;
+}
+
+.header_main_button{
+  font-size: 1.2rem;
+  text-align: center;
+}
+
+.header_main .button{
+  display: inline-block;
+  margin-left: 20px;
+}
+
+.download{
+  color: black;
+}
+
+.browser{
+  background-color: black;
+}
+
+main .row{
+  display: flex;
+  width: 100%;
+  min-height: 200px;
+  justify-content: center;
+}
+
+.text{
+  width: 30%;
+}
+
+.img{
+  width: 70%;
+}
+
+.main_footer{
+  min-height: 500px;
+}
+
+.elenco:nth-child(even){
+  background-color: rgb(202, 202, 202);
+}
