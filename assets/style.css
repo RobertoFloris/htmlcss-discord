@@ -15,7 +15,7 @@ body{
 
 .container{
   width: 98%;
-  max-width: 900px;
+  max-width: 1100px;
   margin: 0 auto;
   margin-top: 20px;
   margin-bottom: 20px;
@@ -123,6 +123,10 @@ header h1{
   background-color: black;
 }
 
+.browser:hover{
+  background-color: rgb(41, 41, 41);
+}
+
 main .row{
   display: flex;
   width: 100%;
@@ -142,6 +146,30 @@ main .row{
   min-height: 500px;
 }
 
+main h2{
+  font-size: 2rem;
+  margin: 32px;
+}
+
+main p{
+  text-align: start;
+  font-size: 1.2rem;
+}
+
 .elenco:nth-child(even){
   background-color: rgb(202, 202, 202);
+}
+
+.main_footer{
+  margin-top: 100px;
+  justify-content: center;
+}
+
+.main_footer h2, .main_footer p{
+  text-align: center;
+}
+
+.immaginegrande{
+  display: flex;
+  justify-content: center;
 }
