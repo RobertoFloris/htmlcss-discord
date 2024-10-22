@@ -222,3 +222,20 @@ footer a:hover{
 hr{
   margin-top: 100px;
 }
+
+.title{
+  color: #255EE9;
+}
+
+.ita{
+  display: inline;
+  margin-top: 10px;
+  vertical-align: middle;
+}
+
+.ita img{
+  width: 26px;
+  height: 16px;
+  vertical-align: middle;
+  margin-right: 10px;
+}
